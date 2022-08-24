@@ -88,7 +88,7 @@ a {
 }
 
 #about {
-  border: 10px solid #00ca22;
+  height: max-content;
   display: grid;
   gap: 50px;
   grid-template-columns: minmax(0px, 1fr) 5fr minmax(0px, 1fr);
@@ -105,7 +105,6 @@ a {
 #bio div {
   text-align: center;
 }
-
 #skills {
   grid-column: 2;
   display: grid;
@@ -130,12 +129,11 @@ a {
 }
 .middle-line {
   display: none;
-  background-color: red;
-  padding: 70px 4px 70px 4px;
 }
 #skills p {
   display: none;
 }
+
 #contact {
   border: 10px solid #00ca22;
 }
@@ -186,17 +184,14 @@ a {
     justify-items: center;
   }
   #bio img {
-    grid-column: 2/3;
+    grid-column: 2;
     display: block;
   }
   #bio div {
-    grid-column: 4/5;
+    grid-column: 4;
   }
   #skills {
     grid-template-columns: 1fr 3fr 1fr 3fr 1fr;
-  }
-  .skills-list {
-    grid-column: 2;
   }
   .left-arrow {
     grid-column: 1;
@@ -217,6 +212,8 @@ a {
   .middle-line {
     display: block;
     grid-column: 3;
+    background-color: red;
+    padding: 70px 4px 70px 4px;
   }
   #skills p {
     display: block;

@@ -33,6 +33,9 @@ ul {
 li {
   list-style-type: none;
 }
+a {
+  color: white;
+}
 #hero {
   background-color: #1e0036;
   border: 10px solid #00ca22;
@@ -130,7 +133,16 @@ li {
 #skills p {
   display: none;
 }
-
+#contact {
+  background-color: #1e0036;
+  border: 10px solid #00ca22;
+}
+.contact-links {
+  display: flex;
+  gap: 15px;
+  width: fit-content;
+  margin-inline: auto;
+}
 @media (min-width: 768px) {
   /* medium */
 }

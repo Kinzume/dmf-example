@@ -61,7 +61,7 @@ a {
 }
 
 #portfolio {
-  height: 100vh;
+  height: max-content;
   display: grid;
   grid-template-columns: minmax(0px, 1fr) 5fr minmax(0px, 1fr);
   row-gap: 50px;

@@ -199,7 +199,7 @@ a {
   }
   .left-arrow {
     grid-column: 1;
-    border: solid red;
+    border: solid white;
     border-width: 0 7px 7px 0;
     display: inline-block;
     padding: 35px;
@@ -207,7 +207,7 @@ a {
   }
   .right-arrow {
     grid-column: 5;
-    border: solid red;
+    border: solid white;
     border-width: 0 7px 7px 0;
     display: inline-block;
     padding: 35px;
@@ -216,7 +216,7 @@ a {
   .middle-line {
     display: block;
     grid-column: 3;
-    background-color: red;
+    background-color: white;
     padding: 70px 4px 70px 4px;
   }
   #skills p {

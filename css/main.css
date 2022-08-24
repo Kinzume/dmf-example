@@ -156,11 +156,9 @@ a {
     grid-template-columns: minmax(50px, 1fr) 3fr 2fr minmax(50px, 1fr);
     justify-items: center;
   }
-
   #hero-left button {
     margin-inline: initial;
   }
-
   #hero-right {
     grid-column: 3;
     display: block;

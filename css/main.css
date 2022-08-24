@@ -3,6 +3,8 @@ body {
   padding: 0;
   background-color: #1e0036;
   color: rgb(206, 206, 206);
+  display: grid;
+  row-gap: 150px;
 }
 .subheading {
   width: fit-content;

@@ -136,6 +136,10 @@ a {
   display: none;
 }
 
+#contact {
+  display: grid;
+  row-gap: 75px;
+}
 .contact-links {
   display: flex;
   gap: 15px;

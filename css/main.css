@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #1e0036;
   color: rgb(206, 206, 206);
 }
 .subheading {
@@ -37,8 +38,8 @@ li {
 a {
   color: white;
 }
+
 #hero {
-  background-color: #1e0036;
   /* border: 10px solid #00ca22; */
   height: 100vh;
   text-align: center;
@@ -47,7 +48,7 @@ a {
   align-items: center;
 }
 #hero-left {
-  grid-column: 2/3;
+  grid-column: 2;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -60,8 +61,6 @@ a {
 }
 
 #portfolio {
-  background-color: #1e0036;
-  border: 10px solid #00ca22;
   display: grid;
   grid-template-columns: minmax(0px, 1fr) 5fr minmax(0px, 1fr);
   row-gap: 50px;
@@ -88,7 +87,6 @@ a {
   border-radius: 0px 0px 15px 15px;
 }
 #about {
-  background-color: #1e0036;
   border: 10px solid #00ca22;
   display: grid;
   gap: 50px;
@@ -138,7 +136,6 @@ a {
   display: none;
 }
 #contact {
-  background-color: #1e0036;
   border: 10px solid #00ca22;
 }
 .contact-links {
@@ -158,17 +155,17 @@ a {
     grid-template-columns: minmax(50px, 1fr) 3fr 2fr minmax(50px, 1fr);
     justify-items: center;
   }
-  #hero-left {
-    grid-column: 2/3;
-  }
+
   #hero-left button {
     margin-inline: initial;
   }
+
   #hero-right {
-    grid-column: 3/4;
+    grid-column: 3;
     display: block;
     max-width: 70%;
   }
+
   #portfolio {
     row-gap: 50px;
   }
